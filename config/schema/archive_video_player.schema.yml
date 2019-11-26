@@ -1,0 +1,7 @@
+field.formatter.settings.archive_video_player_archivevideoplayer:
+  type: mapping
+  label: ArchiveVideoPLayer formatter settings
+  mapping:
+    foo:
+      type: string
+      label: Foo

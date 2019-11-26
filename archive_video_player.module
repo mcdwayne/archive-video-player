@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Archive Video Player module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+/**
+ * Everything above this line was generated using Drush 9's generate:
+ * drush generate module 
+ */
+
+ /**
+  * Here our sole function uses hook_theme() to modify the display of the field based on saved values set in our ArchivevideoplayerFormatter.php file.
+  */
+function archive_video_player_theme() {
+    return [
+        'archive_video_player' => [
+            'variables' => [
+                'archive_id' => [],
+                'videoheight' => '',
+                'videowidth' => '',
+                'autoplayon' => '',
+            ]
+        ]
+    ];
+}
